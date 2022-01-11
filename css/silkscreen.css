@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: radial-gradient(circle, #C892AB, #F0EAE0 70%)
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+  position: absolute;
+  top: 3.3611vw;
+  left: 6.5556vw;
+}
+
+.address {
+  position: absolute;
+  top: 30vw;
+  left: -2.7778vw;
+  font-family: 'GmarketSansLight';
+  font-size: 1.8833vw;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.diamonds img {
+  z-index: 30;
+  position: absolute;
+}
+
+.diamonds :first-child {
+  right: 8.3333vw;
+  bottom: 13.1944vw;
+  width: 234px;
+}
+
+.diamonds :nth-child(2) {
+  left: 14.3333vw;
+  bottom: 70px;
+  width: 229px;
+}
+
+.diamonds :last-child {
+  right: 21.3333vw;
+  top: 10vw;
+  width: 115px;
+}
+
+.silkbox {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  left: 14.3333vw;
+  top: 14.8889vw;
+}
+
+.imgbox {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  right: 8.3333vw;
+  bottom: 6.2500vw;
+}
+
+.silkboxhover {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  position: absolute;
+  border: 0.2083vw solid rgba(0, 0, 0, 0.6);
+  left: 14.3333vw;
+  top: 14.8889vw;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 5em;
+  font-family: 'prata', serif;
+  background-color: rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+
+
+.imgboxhover {
+  width: 44.4722vw;
+  height: 18.2222vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #000000;
+  position: absolute;
+  right: 8.3333vw;
+  bottom: 6.2500vw;
+  z-index: 10;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 5em;
+  font-family: 'prata', serif;
+  background-color: rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+
+.imgbox :hover {
+  cursor: pointer;
+}
+
+.Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

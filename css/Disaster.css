@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: #222222;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5vw;
+  left: 7vw;
+}
+
+.arrow img {
+  width: 5.5vw;
+}
+
+.title {
+  position: absolute;
+  right: 55vw;
+  top: 7vw;
+}
+
+.bigtxt {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.textbox {
+  height: fit-content;
+  width: 50vw;
+  display: inline;
+  text-align: left;
+  position: absolute;
+  left: 50vw;
+  vertical-align: top;
+  font-family: 'GmarketSansLight';
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 0.8em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bigimg img {
+  width: 31.25vw;
+}
+
+.bigimg :first-child {
+  position: absolute;
+  left: 10.4167vw;
+  top: 11.8056vw
+}

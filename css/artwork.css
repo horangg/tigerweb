@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0vw;
+  background: radial-gradient(circle, #B7C8CE, #E5E8E9 70%);
+  background-attachment: fixed;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.center {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.0500vw;
+  position: absolute;
+  top: 3.5611vw;
+  left: 5.0556vw;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5vw;
+  left: 3vw;
+}
+
+.arrow img {
+  width: 5vw;
+}
+
+.txtbox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 2.0833vw;
+}
+
+.design {
+  font-family: 'Prata', serif;
+  font-size: 9.4167vw;
+  line-height: 12.5vw;
+  color: #e2c797;
+  text-shadow: -0.1389vw 0 #000, 0 0.1389vw #000, 0.1389vw 0 #000, 0 -0.1389vw #000;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  z-index: 10;
+}
+
+.star img {
+  position: absolute;
+  z-index: 30;
+}
+
+#s1 {
+  width: 3.0556vw;
+  top: 3.4722vw;
+  left: 4.8611vw;
+}
+
+#s2 {
+  width: 2.0833vw;
+  bottom: 2.7778vw;
+  right: 3.8511vw;
+}
+
+#circle1 {
+  position: absolute;
+  width: 9.0889vw;
+  height: 45.866vw;
+  border-radius: 100%;
+  left: 21.2694vw;
+  top: 4.0833vw;
+  border: 0.1389vw solid rgba(0, 0, 0, 0.4);
+  transform: rotate(15.75deg);
+}
+
+#circle2 {
+  position: absolute;
+  width: 12.1889vw;
+  height: 41.5229vw;
+  left: 31.9444vw;
+  top: 6.8639vw;
+  border-radius: 100%;
+  border: 0.1389vw solid rgba(0, 0, 0, 0.4);
+  transform: rotate(-14.53deg)
+}
+
+#circle3 {
+  position: absolute;
+  top: 7.2917vw;
+  width: 79.1889vw;
+  height: 40.5229vw;
+  border-radius: 100%;
+  border: 0.1694vw solid rgba(0, 0, 0, 0.5);
+  transform: rotate(-14.53deg);
+  z-index: -100;
+}
+
+#line1 {
+  position: absolute;
+  bottom: 4vw;
+  left: 13.5417vw;
+  width: 30.9028vw;
+  border: 0.0694vw solid #333333;
+  margin: 0;
+  background-color: #333333;
+}
+
+#line2 {
+  position: absolute;
+  top: 13.7222vw;
+  right: 4.8333vw;
+  height: 20.9722vw;
+  border: 0.0694vw solid #333333;
+  margin: 0;
+  background-color: #333333;
+}
+
+.imgbox {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+#moon {
+  right: 0.6944vw;
+  top: 6.9444vw;
+  width: 37.5vw;
+  height: 41.6667vw;
+  border: 0.1389vw solid #000000;
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+
+#moonimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(-180deg);
+}
+
+.bubble {
+  position: absolute;
+  bottom: 10.4167vw;
+  background: #333333;
+  width: 37.9722vw;
+  height: 15.8611vw;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  width: 0vw;
+  height: 0vw;
+  border-top: 2.7778vw solid none;
+  border-bottom: 2.7778vw solid #333333;
+  border-left: 8.3333vw solid transparent;
+  border-right: 4.8611vw solid transparent;
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.cloud {
+  position: absolute;
+  top: 10.4167vw;
+  left: 11.8056vw;
+  width: 47.9028vw;
+  height: 17.3056vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cloud div {
+  position: absolute;
+  width: 14.9674vw;
+  height: 17.3056vw;
+  border-radius: 100%;
+  background-color: #222222;
+  z-index: -10;
+}
+
+#no1 {
+  position: absolute;
+  left: 0;
+}
+
+#no2 {
+  position: absolute;
+  left: 18%;
+}
+
+#no4 {
+  position: absolute;
+  right: 18%;
+}
+
+#no5 {
+  position: absolute;
+  right: 0;
+}
+
+.text {
+  font-family: 'GmarketSansLight';
+  font-size: 5.1667vw;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.3vw;
+}

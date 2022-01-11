@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+body {
+    background-color: #E5EBED;
+    margin: 0px;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* h1 {} */
+
+.mainTitle {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.titleBox {
+    position: relative;
+    z-index: 100;
+}
+
+.start {
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    Font-size: 8.3333vw;
+    Line-height: 0.6944vw;
+    letter-spacing: 0.2778vw;
+    display: block;
+}
+
+
+#Vector1 {
+    position: relative;
+    vertical-align: middle;
+    z-index: 0;
+    width: 24.3056vw;
+    top: -19.0972vw;
+    left: -1.2vw;
+}
+
+.ds {
+    font-family: 'Prata', serif;
+    font-size: 3.1250vw;
+    line-height: 3.1250vw;
+    display: block;
+}
+
+.yy {
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: 20.8333vw;
+    left: 24.5vw;
+}
+
+.design {
+    position: absolute;
+    bottom: 10.8333vw;
+    right: 20.5vw;
+}
+
+.studio {
+    position: absolute;
+    bottom: 7.8333vw;
+    right: 24.5vw;
+}
+
+.tiger1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    z-index: -1;
+}
+
+.tiger {
+    width: 45.9444vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.0000vw;
+}
+
+.menu {
+    display: flex;
+    width: 10.9583vw;
+    height: 10.9583vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 2vw;
+    right: 3vw;
+    z-index: 100;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.menuT {
+    font-family: 'Prata', serif;
+    font-size: 1.8vw;
+    color: #ffffff;
+    position: absolute;
+}
+
+.star {
+    width: 10.9583vw;
+}

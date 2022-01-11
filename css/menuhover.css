@@ -1,0 +1,97 @@
+/* menu */
+.menu {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0.17vw;
+  right: 0.62vw;
+  z-index: 50;
+  font-family: 'GmarketSansLight';
+}
+
+.menu :hover {
+  cursor: pointer;
+}
+
+.select {
+  top: 2vw;
+  right: 2vw;
+  position: absolute;
+  top: 0.6944vw;
+  right: 3.125vw;
+  z-index: 150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu img {
+  position: absolute;
+  width: 5.8vw;
+  height: 5.8vw;
+  z-index: 150;
+}
+
+.select p {
+  margin-top: 1.5972vw;
+  z-index: 151;
+}
+
+.menu div {
+  position: absolute;
+  color: white;
+  line-height: 1.4vw;
+  font-size: 1.3833vw;
+  top: 1.0002vw;
+}
+
+.menuhover ul {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  list-style: none;
+}
+
+.menuhover li a {
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  line-height: 70px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: end;
+  text-decoration: none;
+}
+
+.menuhover li a:hover,
+.menuhover ul li:hover a {
+  /* background: #333333; */
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menuhover {
+  width: 100vw;
+  height: 10vw;
+  position: absolute;
+  right: 5px;
+  font-family: 'GmarketSansLight';
+  margin: 0;
+  z-index: 150;
+}
+
+.popupoverlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vw;
+  z-index: 0;
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ----------------------- */

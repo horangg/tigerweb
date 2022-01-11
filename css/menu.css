@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #E5EBED;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 99vh;
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.menubar {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.thisism {
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-size: 3.4722vw;
+  color: #333333;
+}
+
+.line1 {
+  position: absolute;
+  width: 23.5278vw;
+  top: 8vw;
+}
+
+.menu {
+  width: 80vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 9.8vw;
+}
+
+.menuT {
+  font-family: 'GmarketSansLight';
+  font-size: 5.5556vw;
+  line-height: 3.4722vw;
+  letter-spacing: 0.2778vw;
+  color: #333333;
+}
+
+.menuT:hover {
+  font-family: 'Prata', serif;
+}
+
+.menuT:hover .check {
+  visibility: visible;
+}
+
+.menuT:hover .check1 {
+  visibility: visible;
+}
+
+.menuT:hover .check2 {
+  visibility: visible;
+}
+
+.menuT:hover .check3 {
+  visibility: visible;
+}
+
+.menuT:hover .check4 {
+  visibility: visible;
+}
+
+
+.check {
+  position: absolute;
+  z-index: -10;
+  width: 300px;
+  top: 20px;
+  left: 390px;
+  visibility: hidden;
+}
+
+.check1 {
+  position: absolute;
+  z-index: -10;
+  width: 350px;
+  top: 140px;
+  left: 360px;
+  visibility: hidden;
+}
+
+.check2 {
+  position: absolute;
+  z-index: -10;
+  width: 530px;
+  top: 250px;
+  left: 260px;
+  visibility: hidden;
+}
+
+.check3 {
+  position: absolute;
+  z-index: -10;
+  width: 470px;
+  top: 360px;
+  left: 300px;
+  visibility: hidden;
+}
+
+.check4 {
+  position: absolute;
+  z-index: -10;
+  width: 450px;
+  bottom: 40px;
+  left: 300px;
+  visibility: hidden;
+}

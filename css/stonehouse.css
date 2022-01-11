@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #F0EAE0;
+  margin: 0vw;
+  position: absolute;
+  z-index: -10;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 100vh;
+  z-index: -110;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.blackstar img {
+  width: 6.4583vw;
+  z-index: 80;
+  position: absolute;
+  z-index: 30;
+}
+
+.blackstar :first-child {
+  top: 8.0556vw;
+  right: 35.2222vw;
+}
+
+.blackstar :nth-child(2) {
+  top: 19.7778vw;
+  right: 14.8333vw;
+}
+
+.blackstar :last-child {
+  bottom: 7.7778vw;
+  left: 36.8333vw;
+}
+
+.whitestar img {
+  width: 4.0139vw;
+  position: absolute;
+  z-index: 30;
+}
+
+.whitestar :first-child {
+  top: 13.2778vw;
+  right: 33.3333vw;
+}
+
+.whitestar :last-child {
+  bottom: 12.7778vw;
+  left: 34.8333vw;
+}
+
+.builda {
+  position: absolute;
+  font-family: 'Prata', serif;
+  font-size: 6.9444vw;
+  top: 12.9028vw;
+  left: 9.4306vw;
+}
+
+.builda span {
+  margin: 0.0000vw 3.4722vw;
+}
+
+.stone {
+  position: absolute;
+  font-family: 'Prata', serif;
+  font-size: 6.9444vw;
+  color: white;
+  bottom: 13.2028vw;
+  right: 30.4306vw;
+}
+
+.house {
+  position: absolute;
+  font-family: 'Prata', serif;
+  font-size: 6.9444vw;
+  bottom: 6.0028vw;
+  right: 13.4306vw;
+}
+
+.bigimgbox {
+  width: 66.8472vw;
+  height: 29.9444vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #333333;
+}
+
+#houseImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lengthimgbox {
+  width: 14.1806vw;
+  height: 19.1806vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #333333;
+  position: absolute;
+  top: 8.9444vw;
+  right: 20.7500vw;
+}
+
+#lengthImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Transimgbox {
+  width: 22.8889vw;
+  height: 11.6389vw;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 0.2083vw solid #333333;
+  position: absolute;
+  bottom: 9.9444vw;
+  left: 12.8889vw;
+}
+
+#TransImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.address {
+  position: absolute;
+  right: -16vw;
+  top: 30vw;
+  font-family: 'GmarketSansLight';
+  font-size: 1.8833vw;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5vw;
+  left: 7vw;
+}
+
+.arrow img {
+  width: 5.5vw;
+}
+
+.story {
+  position: relative;
+  top: -3vw;
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+}
+
+.storytxt {
+  position: relative;
+  left: 2vw;
+  font-size: 1.8vw;
+  font-family: 'GmarketSansLight';
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

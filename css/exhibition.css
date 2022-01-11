@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: 'Prata', serif; */
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: #F0EAE0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Prata', serif;
+  font-size: 6.2500vw;
+  line-height: 7.2500vw;
+  position: absolute;
+  top: 3.3611vw;
+  left: 5.5556vw;
+}
+
+.leftbox {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 8.3611vw 5.5556vw;
+}
+
+.selectbox {
+  display: inline-block;
+  width: 41.6667vw;
+  height: 20.8333vw;
+}
+
+.poster {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.0833vw;
+}
+
+.exhi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select1,
+.name :hover {
+  cursor: pointer;
+}
+
+.squere {
+  width: 11.1111vw;
+  height: 11.1111vw;
+  border: black solid 0.2083vw;
+  overflow: hidden;
+}
+
+.squere img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.select1 {
+  position: relative;
+  height: 11.1111vw;
+  width: 27.7778vw;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  position: absolute;
+  margin-top: 1.3889vw;
+  width: 27.7778vw;
+  height: 9.7222vw;
+  border: black solid 0.2083vw;
+  z-index: -3;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'GmarketSansLight';
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  width: 23.9583vw;
+  height: 3.4722vw;
+  border: black solid 0.2083vw;
+  background-color: #F0EAE0;
+}
+
+.rightbox {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.bigphoto {
+  position: absolute;
+  width: 37.1528vw;
+  height: 48.3278vw;
+  border: 0.2083vw solid #000000;
+  overflow: hidden;
+}
+
+.bigImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------------------------------- */
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.popupcontent {
+  background-color: #F0EAE0;
+  border: 0.2083vw solid black;
+  padding: 3.4722vw 3.4722vw;
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  width: 75.8333vw;
+  height: 39.375vw;
+  box-shadow: 0 0.6944vw 1.3889vw rgba(214, 146, 146, 0.19), 0 0.4167vw 60x rgba(0, 0, 0, 0.23);
+  z-index: 210;
+}
+
+.x {
+  cursor: pointer;
+  position: absolute;
+  top: -1.7361vw;
+  right: 1.3889vw;
+  font-size: 5.9444vw;
+}
+
+.popuptitle {
+  font-family: 'Prata', serif;
+  font-size: 5.0500vw;
+  line-height: 7.2500vw;
+  position: absolute;
+  top: 3vw;
+  /* left: 5.5556vw; */
+}
+
+.pamphlet {
+  width: 561.6px;
+  height: 29.1vw;
+  border: 0.17vw solid black;
+  position: absolute;
+  top: 12.1vw;
+  left: 5.5vw;
+  overflow: hidden;
+  position: absolute;
+}
+
+.innerImg {
+  display: flex;
+}
+
+.innerImg img {
+  width: 561.6px;
+}
+
+.map {
+  width: 26.4375vw;
+  border: 0.17vw solid black;
+  position: absolute;
+  right: 5.5139vw;
+  top: 5.8vw
+}
+
+
+.next {
+  position: absolute;
+  top: 320px;
+  left: 613px;
+}
+
+.prev {
+  position: absolute;
+  top: 320px;
+  left: 31px;
+}
+
+.hidden3 {
+  display: none;
+}
+
+/* ------------------------------------------------------ */
+.popup2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.popupcontent2 {
+  position: absolute;
+  display: flex;
+  z-index: 210;
+  width: 840px;
+  height: 600px;
+  overflow: hidden;
+}
+
+
+.innerImg2 {
+  display: flex;
+}
+
+.innerImg2 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 840px;
+  object-fit: contain;
+  z-index: 210;
+}
+
+.next2 {
+  position: absolute;
+  top: 335px;
+  right: 100px;
+}
+
+.prev2 {
+  position: absolute;
+  left: 100px;
+  top: 335px;
+}
+
+.x2 {
+  cursor: pointer;
+  position: absolute;
+  top: 1.7361vw;
+  right: 3.8889vw;
+  font-size: 5.9444vw;
+  color: #F0EAE0;
+  z-index: 250;
+}
+
+.hidden2 {
+  display: none;
+}
+
+button {
+  font-size: 60px;
+  z-index: 250;
+  background-color: transparent;
+  border: none;
+  text-shadow: -0.1389vw 0#F0EAE0, 0 0.1389vw#F0EAE0, 0.1389vw 0#F0EAE0, 0 -0.1389vw#F0EAE0;
+  color: black;
+}
+
+button,
+button:active,
+button:focus {
+  text-shadow: -0.1389vw 0#F0EAE0, 0 0.1389vw#F0EAE0, 0.1389vw 0#F0EAE0, 0 -0.1389vw#F0EAE0;
+  color: black;
+}
+
+.popupoverlay1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 160;
+}
